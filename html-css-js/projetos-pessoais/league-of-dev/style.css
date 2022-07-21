@@ -1,0 +1,152 @@
+/*Configuração padrão*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "FF-Mark W05", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: .08em;
+}
+
+/*Configurações gerais*/
+html, body{
+	margin: 0;
+    height: 100%;
+    position: absolute;
+}
+
+#container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+
+/*Estilização da Barra de Navegação*/
+.navbar {
+	background-color: #111111;
+	height: 80px;
+	border: 2px solid #212020;
+	border-top: none;
+	border-left,right: none;
+	padding-right: 37px;
+	padding-left: 40px;
+}
+
+.logo {
+	color: white;
+	cursor: pointer;
+	width: 80px;
+    padding: 6px;
+    float: left;
+    margin-top: 15px;
+}
+.logo:hover {
+	color: red;
+	cursor: pointer;
+}
+.p1 {
+	font-size: 15px;
+}
+
+.icon-lol {
+	height: 32px;
+	float: left;
+    margin-top: 23px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+.icon-lol:hover {
+	cursor: pointer;
+	-webkit-transform: scale(1.1);
+    -ms-transform: scale(1,1);
+    transform: scale(1.1);
+}
+
+.aba-item {
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+	border: 5px #8080804D;
+	padding: 5px;
+	float: left;
+	margin-top: 25px;
+}
+.aba-item:hover {
+	cursor: pointer;
+	background-color: #8080804D;
+	border-radius: 4px;
+}
+
+#sobre {
+	padding-left: 20px;
+	width: 95px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#habilidades {
+	width: 145px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-left: 20px;
+}
+#skins {
+	width: 90px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-left: 20px;
+}
+#artes {
+	width: 90px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-left: 20px;
+}
+
+.button-item {
+	color: #111111;
+	float: right;
+	margin-top: 22px;
+	padding: 8px 16px;
+	background-color: #0bc4e2;
+	border-radius: 13px;
+	text-decoration: none;
+}
+.button-item:hover {
+	cursor: pointer;
+	background-color: #0aa6bf;
+	/*background-color: #0a97ad;*/
+}
+a:link {
+  color: #111111;
+  text-decoration: none;
+}
+a:visited {
+  color: #111111;
+  text-decoration: none;
+}
+
+/*Sobre: Page 1;*/
+.page-sobre {
+	background-color: #000913;
+	height: 100%;
+	width: 100%;
+}
+
+.lol-caitlyn {
+	position: relative;
+	float: left;
+	padding-left: 5%;
+	padding-top: 3%;
+}
+
+.titulo {
+
+}
+
+.box-titulo {
+
+}
