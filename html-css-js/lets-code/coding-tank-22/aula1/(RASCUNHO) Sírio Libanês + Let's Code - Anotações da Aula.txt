@@ -1,0 +1,124 @@
+Sírio Libanês + Let's Code - Anotações da Aula
+
+Aula 1 - 22/07/2022
+Programa é uma sequencia lógica de instruções e é basicamente isso que é um algoritmo;
+Uma receita de bolo é um exemplo de como é um algoritmo, uma lista escrito o que você precisa para fazer, o que fazer e como saber se está feito corretamente, uma sequência de instruções;
+Atravessar a rua também é uma analogia boa para explicar a lógica e os algoritmos, inclusive nesse exemplo existe a presença de estruturas condicionais;
+Precisamos de linguagens para nos comunicar com o computador, linguagens essas conhecidas como linguagens de programação;
+A linguagem que vamos usar nesse curso é o JavaScript;
+Jogo recomendado para praticar algoritmos: Jogos do Blockly/Scratch;
+O computador apenas faz o que mando, preciso ser o mais específico possível;
+As variáveis podem ser classificadas como "var", "let" e "const";
+O padrão de mercado é escrever o nome das variáveis em inglês;
+Mantenha o padrão do time para que o código esteja em uma linguagem unânime;
+É considerada boa prática seguir o padrão de escrita para nomes das variáveis como sendo a cada nova palavra usar a primeira letra maiúscula, com exceção da primeira palavra, como por exemplo: nomeVariavel;
+Atalho para comentar no JavaScript: "ctrl" + ";";
+Curiosidade: NaN é mostrado como number, mas significa "Not a Number";
+Extensões que eu uso e pode ajudar no VS Code:
+- Pacote de Idioma Português = altera o idioma;
+-Auto rename tag = Para alterar as tag;
+- Dracula Official = Tema (muda as cores);
+- Live Server = Auxilia nos testes;
+- vccode-icons = coloca ícones nos arquivos;
+- Code Runner;
+Torne os códigos legíveis porque você está codificando para humanos lerem, seja você ou outras pessoas do seu time, com exceção de codificar para jogos;
+O JavaScript é fracamente tipada, logo, você não define os tipos das variáveis;
+
+
+
+
+
+CODIGOS JAVASCRIPT
+
+// O comando que vamos utilizar para exibir coisas no nosso console será o "console.log"
+//Se eu quiser exibir um alerta eu devo utilizar o comando "window.alert"
+//O computador entende comandos de aritmética
+//Para operações mais complexas é necessário utilizar a biblioteca "Math"
+console.log("13 + 8 = ", 13 + 8);
+console.log("13 - 8 = ", 13 - 8);
+console.log("13 * 8 = ", 13 * 8);
+console.log("13 / 8 = ", 13 / 8);
+console.log("13 % 8 = ", 13 % 8);
+
+//Variáveis alocam espaço de memória para representar algum valor;
+//Primeiro passo: "var" para definir que é uma variável
+//Segundo passo: nome da variável
+//Terceiro passo: "=" para definir atribuição
+//Quarto passo: valor desejo para variável, se for texto sempre deve estar entre aspas duplas ou simples ("" e '')
+var olaMundo = "Ola Mundo!"
+console.log(olaMundo);
+
+var soma1 = 5 + 2;
+var subtracao = soma1 - 3;
+console.log(soma1);
+console.log(subtracao);
+
+//Os programas modernos vão definir as variáveis com const e let
+//Const são dados constantes e que não podem ser modificados 
+//Let são dados maleáveis e que permitem modificação
+const num = 5;
+let numero = 3;
+
+numero = numero * 3;
+console.log(numero);
+
+let nf = '5'
+let n2 = 1;
+console.log(parseFloat(nf) + n2)
+
+//Calculadora: o usuário vai inserir um número, depois outro número e nosso programa fará a soma dos dois;
+//const numero1 = parseFloat(prompt('Insira um número'));
+//const numero2 = parseFloat(prompt('Insira outro número'));
+//const soma = numero1 + numero2;
+
+//window.alert(soma);
+//console.log(numero1, numero2, soma);
+
+//Tipos primitivos de variáveis:
+//undefined: quando não tem tipo nem valor;
+//boolean: verdadeiro ou falso/true or false;
+//string: texto;
+//number: número;
+
+//Tipos complexos de variáveis:
+//function: funções;
+//object: objetos;
+
+//String:
+const str = 'texto';
+
+//Typeof vai retornar o tipo da variável que está depois do espaço
+console.log(typeof str);
+
+//Number:
+const number = 1;
+console.log(typeof number, number);
+
+//Boolean:
+const vdd = true;
+const nnn = false;
+console.log(typeof vdd, vdd);
+console.log(typeof nnn, nnn);
+
+//Undefined:
+let semValor;
+let indefinido = undefined;
+
+console.log(typeof semValor, semValor);
+console.log(typeof indefinido, indefinido)
+
+//Function:
+const funcao = function(){};
+const outraFuncao = function(){};
+
+console.log(typeof funcao, funcao);
+console.log(typeof outraFuncao, outraFuncao);
+
+//Object:
+const objeto = {};
+const arr = []; //array
+const nulo = null;
+
+console.log(typeof objeto, objeto);
+console.log(typeof arr, arr);
+console.log(typeof nulo, nulo);
